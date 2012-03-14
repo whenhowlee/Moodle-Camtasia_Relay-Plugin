@@ -22,7 +22,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version  = 2012020101;   // The (date) version of this module + 2 extra digital for daily versions
+$plugin->version  = 2012031401;   // The (date) version of this module + 2 extra digital for daily versions
                                   // This version number is displayed into /admin/forms.php
                                   // TODO: if ever this plugin get branched, the old branch number
                                   // will not be updated to the current date but just incremented. We will
@@ -30,5 +30,5 @@ $plugin->version  = 2012020101;   // The (date) version of this module + 2 extra
                                   // display this version number with userdate (dev friendly)
 $plugin->requires = 2010112400;  // Requires this Moodle version - at least 2.0
 $plugin->cron     = 0;
-$plugin->release = '1.0 (Build: 2012020101)';
+$plugin->release = 'Camtasia Relay Notification Plugin (Build: 2012020101)';
 $plugin->maturity = MATURITY_STABLE;
